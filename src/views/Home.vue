@@ -1,18 +1,29 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <h1>Bike LED Project</h1>
+    <wokwi-neopixel pin="6" pixel="0"></wokwi-neopixel>
+    <wokwi-neopixel pin="6" pixel="1"></wokwi-neopixel>
+    <wokwi-neopixel pin="6" pixel="2"></wokwi-neopixel>
+    <wokwi-neopixel pin="6" pixel="3"></wokwi-neopixel>
+    <wokwi-neopixel pin="6" pixel="4"></wokwi-neopixel>
+    <wokwi-neopixel pin="6" pixel="5"></wokwi-neopixel>
+    <wokwi-neopixel pin="6" pixel="6"></wokwi-neopixel>
+    <wokwi-neopixel pin="6" pixel="7"></wokwi-neopixel>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+import "@wokwi/elements";
 
 export default {
   name: "Home",
   components: {
-    HelloWorld
+
+  },
+  methods: {
+    compile() {
+      return "something";
+    }
   }
 };
 </script>
