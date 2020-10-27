@@ -89,8 +89,8 @@ void loop() {
 
       const matrixController = new WS2812Controller(116);
 
-      runner.portB.addListener(() => {
-        matrixController.feedValue(runner.portB.pinState(6), cpuNanos());
+      runner.portD.addListener(() => {
+        matrixController.feedValue(runner.portD.pinState(6), cpuNanos());
       });
       runner.execute(() => {
         const pixels = matrixController.update(cpuNanos());
