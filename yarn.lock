@@ -2009,6 +2009,11 @@ autoprefixer@^9.8.6:
     postcss "^7.0.32"
     postcss-value-parser "^4.1.0"
 
+avr8js@^0.11.4:
+  version "0.11.4"
+  resolved "https://registry.yarnpkg.com/avr8js/-/avr8js-0.11.4.tgz#3b3b678135ff61f257e94c5eacdb6f6615afc5f9"
+  integrity sha512-GnBjr6Zk0DlDu8Aw4hHyQV2QidPbEYFNAnOv40quwOqCwVfWtN1T1cMGRzQvSJ/Gjn12XqUb5/KBJecJ/qdyoQ==
+
 aws-sign2@~0.7.0:
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/aws-sign2/-/aws-sign2-0.7.0.tgz#b46e890934a9591f2d2f6f86d7e6a9f1b3fe76a8"
